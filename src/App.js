@@ -1,19 +1,22 @@
 import React from "react";
 import "./App.css";
-
-//logo header
-//nav content
-//footer
+import Sidebar from "./Sidebar";
 
 function App() {
   return (
     <div className="container">
-      <div className="header">Header</div>
-      <div className="content">Content</div>
-      <div className="nav">Nav</div>
-      <div className="sidebar">Side</div>
-      <div className="footer">Footer</div>
+      <Sidebar />
     </div>
+    // <div className="container">
+
+    //   <header className="header">Header</header>
+    //   <section className="content">Content</section>
+    //   <nav className="nav">
+    //     <div className="App"></div>
+    //   </nav>
+    //   <aside className="sidebar">Side</aside>
+    //   <footer className="footer">Footer</footer>
+    // </div>
   );
 }
 
